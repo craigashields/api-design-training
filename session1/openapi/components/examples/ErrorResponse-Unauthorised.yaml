@@ -1,0 +1,7 @@
+summary: Unauthorized
+description: An example of an unauthorised error.
+value:
+  code: 401
+  message: Unauthorized
+  description: Authentication credentials were missing or incorrect
+  documentation: https://docs.example.com/api-credentials

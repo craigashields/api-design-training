@@ -1,0 +1,8 @@
+title: Tasks
+description: the schema for a list of tasks
+type: object
+properties:
+  data:
+    type: array
+    items:
+      $ref: Task.yaml

@@ -1,0 +1,8 @@
+description: Unauthorized
+content:
+  application/json:
+    schema:
+      $ref: ..\schemas\Error.yaml
+    examples:
+      Unauthorized:
+        $ref: ..\examples\ErrorResponse-Unauthorised.yaml

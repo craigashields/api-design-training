@@ -1,0 +1,13 @@
+get:
+  tags:
+    - Tasks
+  summary: Retrieve all tasks
+  description: This retrieves a list of tasks
+  operationId: getTasks
+  security:
+    - ApiKeyAuth: []
+  responses:
+    200:
+      $ref: ..\components\responses\TasksResponse.yaml
+    401:
+      $ref: ..\components\responses\ErrorResponse.yaml

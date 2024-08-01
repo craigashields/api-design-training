@@ -1,0 +1,4 @@
+summary: RetrieveTasksNoData
+description: An example of an empty Task list.
+value:
+  data: []

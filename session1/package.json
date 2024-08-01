@@ -1,0 +1,14 @@
+{
+  "name": "todo-api-spec",
+  "version": "1.0.0",
+  "description": "OpenAPI definition for todo api",
+  "scripts": {
+    "start": "redocly preview-docs",
+    "build": "redocly bundle -o dist/openapi.yml",
+    "lint": "redocly lint --format=stylish"
+  },
+  "dependencies": {
+    "@redocly/cli": "^1.18.1",
+    "@stoplight/prism-cli": "^5.8.3"
+  }
+}

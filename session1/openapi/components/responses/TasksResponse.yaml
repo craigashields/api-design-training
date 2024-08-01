@@ -1,0 +1,10 @@
+description: OK
+content:
+  application/json:
+    schema:
+      $ref: ..\schemas\Tasks.yaml
+    examples:
+      Tasks:
+        $ref: ..\examples\TasksResponse.yaml
+      NoTasks:
+        $ref: ..\examples\TasksResponse-NoTasks.yaml

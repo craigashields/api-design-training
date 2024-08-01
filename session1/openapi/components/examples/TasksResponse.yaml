@@ -1,0 +1,21 @@
+summary: RetrieveTasks
+description: An example of a Task list.
+value:
+  data:
+    - title: Buy groceries
+      description: milk, bread, chocolate
+      status: new
+      id: 3fa85f64-5717-4562-b3fc-2c963f66afa6
+      created_at: 2024-07-29T14:56:28.290Z
+      updated_at: 2024-07-29T14:56:28.290Z
+    - title: Pick kids up from school
+      description: dont forget the baby
+      status: completed
+      id: 3fa85f64-5717-4562-b3fc-2c963f66afa5
+      created_at: 2024-07-28T14:56:28.290Z
+      updated_at: 2024-07-29T14:56:28.290Z
+    - title: Book Deadpool and Wolverine tickets
+      status: in-progress
+      id: 3fa85f64-5717-4562-b3fc-2c963f66afa3
+      created_at: 2024-07-27T14:56:28.290Z
+      updated_at: 2024-07-27T14:56:28.290Z

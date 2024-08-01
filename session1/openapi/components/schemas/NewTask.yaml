@@ -1,0 +1,8 @@
+allOf:
+  - $ref: TaskBase.yaml
+  - type: object
+    required:
+      - title
+    properties:
+      status:
+        default: "new"

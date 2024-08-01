@@ -1,0 +1,15 @@
+type: object
+properties:
+  code:
+    type: integer
+    description: Error Code
+  message:
+    type: string
+    description: Error Message
+  description:
+    type: string
+    description: Full error message description
+  documentation:
+    type: string
+    format: url
+    description: link to troubleshooting docs

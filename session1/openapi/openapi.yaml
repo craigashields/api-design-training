@@ -1,0 +1,52 @@
+openapi: 3.1.0
+info:
+  title: Task Management API
+  description: |
+    ## Overview
+
+    The Task Management API provides a simple yet powerful interface for managing tasks. It allows users to create, retrieve, update, and delete tasks efficiently. 
+
+    ## Error Codes
+
+    | HTTP Status Code | Description                 | Possible Causes                               |
+    |------------------|-----------------------------|-----------------------------------------------|
+    | 400              | Bad Request                 | Invalid input data, malformed request syntax  |
+    | 404              | Not Found                   | Resource not found, invalid resource ID       |
+    | 401              | Unauthorized                | Authentication required, invalid credentials  |
+    | 403              | Forbidden                   | Access denied, insufficient permissions       |
+    | 429              | Too Many Requests           | Rate limit exceeded                           |
+    | 500              | Internal Server Error       | Server encountered an error processing request|
+
+    ## Versioning
+
+    We could add a Version policy here
+
+  version: 1.0.0
+  termsOfService: http://taskmanagementapidemo.com/terms/
+  contact:
+    name: API Support
+    url: http://taskmanagementapidemo.com/support
+    email: support@taskmanagementapidemo.com
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+servers:
+  - url: http://api.taskmanagementapidemo.com/v1
+    description: Main (production) server
+  - url: http://staging-api.taskmanagementapidemo.com/v1
+    description: Staging server
+externalDocs:
+  description: Find more info here
+  url: http://api.taskmanagementapidemo.com/docs
+tags:
+  - name: Tasks
+    description: Operations related to managing tasks
+paths:
+  /tasks:
+    $ref: paths\tasks.yaml
+components:
+  securitySchemes:
+    ApiKeyAuth:
+      type: apiKey
+      in: header
+      name: api-key
