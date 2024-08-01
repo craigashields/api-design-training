@@ -1,12 +1,11 @@
 <div align="center">
 
-  <h1>API Design Training</h1>
-  
-    Welcome to the API Design Training Project! This project demonstrates API design using a number of tools. This project serves as an example of how to structure and document APIs effectively.
+  <h1>API Design Training</h1>  
+Welcome to the API Design Training Project! This project demonstrates API design using a number of tools. This project serves as an example of how to structure and document APIs effectively.
 
-    The brief here is to design a simple Task Management API using OpenAPI definition. Each session builds on the last, showing progression, introducing new concepts and tools.
+The brief here is to design a simple Task Management API using OpenAPI definition. Each session builds on the last, showing progression, introducing new concepts and tools.
 
-    As more sessions and examples are completed, additional `session` folders will be added.
+As more sessions and examples are completed, additional `session` folders will be added.
 
 <!-- Badges -->
 <p>
