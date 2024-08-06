@@ -270,6 +270,14 @@ To start using `Prism`, simply run the following command (ensuring you are in th
 prism mock dist/openapi.yml
 ```
 
+> **Note**
+>
+> If there is an issue with starting the server. You might have to install `prism` globally like so:
+>
+> ```
+> npm install -g @stoplight/prism-cli
+> ```
+
 You will see in the terminal that it has started
 
 ```
